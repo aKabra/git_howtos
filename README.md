@@ -3,8 +3,9 @@ git_howtos
 That's some howtos that I find useful for somebody who does not use git every day.
 
 Git help
+
 1) To revert local add:
-git reset HEAD
+>git reset HEAD
 This will revert all the changes from the commit
 
 2) Create a new branch from another branch:
