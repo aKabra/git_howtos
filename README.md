@@ -33,16 +33,16 @@ Create the NEWBRANCHNAME on the remote
 >git merge BRANCHTOMERGE
 
 7) Setup upstream for a forked repo.
-$ git remote -v
-# List the current remotes
+List the current remotes
+>git remote -v
 origin  https://github.com/user/repo.git (fetch)
 origin  https://github.com/user/repo.git (push)
 
-$ git remote add upstream https://github.com/otheruser/repo.git
-# Set a new remote
+Set a new remote
+>git remote add upstream https://github.com/otheruser/repo.git
 
-$ git remote -v
-# Verify new remote
+Verify new remote
+>git remote -v
 origin    https://github.com/user/repo.git (fetch)
 origin    https://github.com/user/repo.git (push)
 upstream  https://github.com/otheruser/repo.git (fetch)
