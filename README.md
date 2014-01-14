@@ -1,6 +1,10 @@
 git_howtos
 ==========
-That's some howtos that I find useful for somebody who does not use git every day.
+
+This document is licensed under Apache License, version 2.0 (see http://www.apache.org/licenses/LICENSE-2.0)
+Use this documentation at your own risk. I am not liable for any loss from the use of this document.
+
+These commands have worked for me for my little git use. I perodically visit this list to refresh my memory.
 
 Git help
 
