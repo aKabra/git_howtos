@@ -10,9 +10,12 @@ Git help
 
 1) To revert local add:
 >git reset HEAD
+
 This will revert all the changes from the commit
 
+
 2) Create a new branch from another branch:
+
 Switch to the source branch
 >git checkout SOURCEBRANCHNAME
 
@@ -25,22 +28,30 @@ Switch to the new branch
 Create the NEWBRANCHNAME on the remote
 >git push -u origin HEAD
 
+
 3) Delete remote branch
 >git push origin :BRANCHNAMETODELETE
+
 
 4) Add a specific file
 >git add RELATIVE_PATH_TO_FILE
 
+
 5) Remove stale branches from remotes
 >git remote prune origin
+
 
 6) Merge one branch into another
 >git merge BRANCHTOMERGE
 
+
 7) Setup upstream for a forked repo.
+
 List the current remotes
 >git remote -v
-origin  https://github.com/user/repo.git (fetch)
+
+Output:<br>
+origin  https://github.com/user/repo.git (fetch)<br>
 origin  https://github.com/user/repo.git (push)
 
 Set a new remote
@@ -48,23 +59,29 @@ Set a new remote
 
 Verify new remote
 >git remote -v
-origin    https://github.com/user/repo.git (fetch)
-origin    https://github.com/user/repo.git (push)
-upstream  https://github.com/otheruser/repo.git (fetch)
+
+Output:<br>
+origin    https://github.com/user/repo.git (fetch)<br>
+origin    https://github.com/user/repo.git (push)<br>
+upstream  https://github.com/otheruser/repo.git (fetch)<br>
 upstream  https://github.com/otheruser/repo.git (push)
 
+
 8) To checkout a branch that exists on remotes and set tracking do
->git fetch
+>git fetch<br>
 >git checkout BRANCHENAME
 
+
 9) Delete a local branch
-git branch -D BRANCHNAME
+>git branch -D BRANCHNAME
+
 
 10) Add only modified files. Do not add new files.
 >git add -u
 
+
 11) Commit changes and put them to remote
->git commit -m "COMMENTS ABOUT THIS COMMIT"
+>git commit -m "COMMENTS ABOUT THIS COMMIT"<br>
 >git push
 
 
