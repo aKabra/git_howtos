@@ -95,5 +95,11 @@ upstream  https://github.com/otheruser/repo.git (push)
 14) Delete a local branch
 >git branch -D BRANCHNAME
 
+15) Store credentials so that yu do not need to type them in again (helps when two step authentication is used with github):
+>git config credential.helper store<br>
+>git pull (or another command that will prompt the password)<br>
+>Username: type your username here<br>
+>Password: type your password here
+
 
 
