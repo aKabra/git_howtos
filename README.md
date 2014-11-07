@@ -101,5 +101,8 @@ upstream  https://github.com/otheruser/repo.git (push)
 >Username: type your username here<br>
 >Password: type your password here
 
-
+16) Forget all local commits into the BRANCHNAME branch and replace the branch contents with the contents of remote (for example, if you accidentally merged some branch into the master, but then want undo that and get the original master back): 
+>git checkout BRANCHNAME<br>
+>git fetch<br>
+>git reset --hard origin/BRANCHNAME<br>
 
