@@ -106,6 +106,8 @@ upstream  https://github.com/otheruser/repo.git (push)
 >git fetch<br>
 >git reset --hard origin/BRANCHNAME<br>
 
-17) Housekeeping for a local repo. It often makes the .git folder much smaller.
+17) Housekeeping for a local repo. It often makes the .git folder much smaller. However, it also makes it impossible to undo accidental hard resets.
 >git gc
 
+18) Roll back last commit, delete it from history, and forget about all the changes in it.
+>git reset --hard HEAD~1
