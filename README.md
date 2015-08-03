@@ -111,3 +111,8 @@ upstream  https://github.com/otheruser/repo.git (push)
 
 18) Roll back last commit, delete it from history, and forget about all the changes in it.
 >git reset --hard HEAD~1
+
+19) You created a local repository and also created an empty remote repository (with url https://github.com/user/repo.git). Now you want to push your local repo to the empty remote, do this:
+> git remote add origin https://github.com/user/repo.git
+
+Now you can push and pull your local repo to the remote.
