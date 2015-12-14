@@ -113,6 +113,12 @@ upstream  https://github.com/otheruser/repo.git (push)
 >git reset --hard HEAD~1
 
 19) You created a local repository and also created an empty remote repository (with url https://github.com/user/repo.git). Now you want to push your local repo to the empty remote, do this:
-> git remote add origin https://github.com/user/repo.git
+>git remote add origin https://github.com/user/repo.git
 
 Now you can push and pull your local repo to the remote.
+
+20) Make git to forget about a file or folder (remove it from the git repo, without removing it from the local file system):
+>git rm --cached file_or_folder_name
+
+The file will appear deleted, but they are deleted only from the index.
+
